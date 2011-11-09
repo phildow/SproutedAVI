@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		72405B9E0DBFF68C00CE37BE /* LCDBackground-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 72405B9D0DBFF68C00CE37BE /* LCDBackground-Flat.png */; };
+		72405BC60DC0007F00CE37BE /* SproutedRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 72405BC40DC0007F00CE37BE /* SproutedRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72405BC70DC0007F00CE37BE /* SproutedRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72405BC50DC0007F00CE37BE /* SproutedRecorder.m */; };
+		724108130DBFD0FF0011325E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 724108120DBFD0FF0011325E /* Localizable.strings */; };
+		724108520DBFD7730011325E /* AVIPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 724108500DBFD7730011325E /* AVIPreferences.nib */; };
+		724508B70DC13AAB002359D4 /* get-info-32.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 724508B60DC13AAB002359D4 /* get-info-32.tiff */; };
+		724509380DC13C4E002359D4 /* MP3AddScript.txt in Resources */ = {isa = PBXBuildFile; fileRef = 724509370DC13C4E002359D4 /* MP3AddScript.txt */; };
+		7268A58D0DC9777000112F60 /* SproutedLeopardVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7268A58B0DC9777000112F60 /* SproutedLeopardVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7268A58E0DC9777000112F60 /* SproutedLeopardVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268A58C0DC9777000112F60 /* SproutedLeopardVideoRecorder.m */; };
+		7268A5940DC977A500112F60 /* VideoRecorder_105.nib in Resources */ = {isa = PBXBuildFile; fileRef = 7268A5920DC977A500112F60 /* VideoRecorder_105.nib */; };
+		726BDECC0DBD4CF900CDB0AC /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDECA0DBD4CF900CDB0AC /* QTKit.framework */; };
+		726BDECD0DBD4CF900CDB0AC /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDECB0DBD4CF900CDB0AC /* QuickTime.framework */; };
+		726BDECF0DBD4D1700CDB0AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDECE0DBD4D1700CDB0AC /* AudioToolbox.framework */; };
+		726BDED10DBD4D1B00CDB0AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		726BDED50DBD4D4300CDB0AC /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDED40DBD4D4300CDB0AC /* CoreAudioKit.framework */; };
+		726BDF160DBD4DCB00CDB0AC /* SproutedUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDF140DBD4DCB00CDB0AC /* SproutedUtilities.framework */; };
+		726BDF170DBD4DCB00CDB0AC /* SproutedInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDF150DBD4DCB00CDB0AC /* SproutedInterface.framework */; };
+		726BDF9F0DBD4DF300CDB0AC /* SproutedUtilities.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDF140DBD4DCB00CDB0AC /* SproutedUtilities.framework */; };
+		726BDFA00DBD4DF300CDB0AC /* SproutedInterface.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDF150DBD4DCB00CDB0AC /* SproutedInterface.framework */; };
+		726BDFA50DBD4E8B00CDB0AC /* SproutedAVI.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFA40DBD4E8B00CDB0AC /* SproutedAVI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFC50DBD4FF600CDB0AC /* WhackedDebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFC40DBD4FF200CDB0AC /* WhackedDebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFD40DBD503200CDB0AC /* SeqGrab.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFC90DBD501000CDB0AC /* SeqGrab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFD50DBD503200CDB0AC /* SeqGrab.mm in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFCA0DBD501000CDB0AC /* SeqGrab.mm */; };
+		726BDFD60DBD503200CDB0AC /* SGAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFCB0DBD501000CDB0AC /* SGAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFD70DBD503200CDB0AC /* SGAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFCC0DBD501000CDB0AC /* SGAudio.mm */; };
+		726BDFD80DBD503200CDB0AC /* SGChan.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFCD0DBD501000CDB0AC /* SGChan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFD90DBD503200CDB0AC /* SGChan.mm in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFCE0DBD501000CDB0AC /* SGChan.mm */; };
+		726BDFFA0DBD508400CDB0AC /* DeviceChannelStrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFF20DBD508300CDB0AC /* DeviceChannelStrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFFB0DBD508400CDB0AC /* DeviceChannelStrip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFF30DBD508300CDB0AC /* DeviceChannelStrip.mm */; };
+		726BDFFC0DBD508400CDB0AC /* HorizontalMeteringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFF40DBD508300CDB0AC /* HorizontalMeteringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFFD0DBD508400CDB0AC /* HorizontalMeteringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFF50DBD508300CDB0AC /* HorizontalMeteringView.m */; };
+		726BDFFE0DBD508400CDB0AC /* MeteringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFF60DBD508300CDB0AC /* MeteringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BDFFF0DBD508400CDB0AC /* MeteringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFF70DBD508400CDB0AC /* MeteringView.m */; };
+		726BE0000DBD508400CDB0AC /* SGAudioSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFF80DBD508400CDB0AC /* SGAudioSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE0010DBD508400CDB0AC /* SGAudioSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFF90DBD508400CDB0AC /* SGAudioSettings.mm */; };
+		726BE0060DBD510400CDB0AC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BE0040DBD510400CDB0AC /* AudioUnit.framework */; };
+		726BE0070DBD510400CDB0AC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BE0050DBD510400CDB0AC /* CoreAudio.framework */; };
+		726BE0720DBD536A00CDB0AC /* PDMeteringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BE06C0DBD536A00CDB0AC /* PDMeteringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE0730DBD536A00CDB0AC /* PDMeteringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BE06D0DBD536A00CDB0AC /* PDMeteringView.m */; };
+		726BE0740DBD536A00CDB0AC /* PDMovieSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BE06E0DBD536A00CDB0AC /* PDMovieSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE0750DBD536A00CDB0AC /* PDMovieSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BE06F0DBD536A00CDB0AC /* PDMovieSlider.m */; };
+		726BE0760DBD536A00CDB0AC /* PDMovieSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BE0700DBD536A00CDB0AC /* PDMovieSliderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE0770DBD536A00CDB0AC /* PDMovieSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BE0710DBD536A00CDB0AC /* PDMovieSliderCell.m */; };
+		726BE07E0DBD540700CDB0AC /* CSGCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BE07A0DBD540700CDB0AC /* CSGCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE07F0DBD540700CDB0AC /* CSGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BE07B0DBD540700CDB0AC /* CSGCamera.m */; };
+		726BE0800DBD540700CDB0AC /* CSGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BE07C0DBD540700CDB0AC /* CSGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726BE0810DBD540700CDB0AC /* CSGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BE07D0DBD540700CDB0AC /* CSGImage.m */; };
+		726BE08A0DBD54CC00CDB0AC /* VideoRecorder.nib in Resources */ = {isa = PBXBuildFile; fileRef = 726BE0840DBD54CC00CDB0AC /* VideoRecorder.nib */; };
+		726BE08B0DBD54CC00CDB0AC /* AudioRecorder.nib in Resources */ = {isa = PBXBuildFile; fileRef = 726BE0860DBD54CC00CDB0AC /* AudioRecorder.nib */; };
+		726BE08C0DBD54CC00CDB0AC /* Snapshot.nib in Resources */ = {isa = PBXBuildFile; fileRef = 726BE0880DBD54CC00CDB0AC /* Snapshot.nib */; };
+		7296E8B10DBEB18800817219 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7296E8B00DBEB18800817219 /* QuartzCore.framework */; };
+		72A59ECD0DBF990300039287 /* SproutedAVIController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A59ECB0DBF990300039287 /* SproutedAVIController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A59ECE0DBF990300039287 /* SproutedAVIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A59ECC0DBF990300039287 /* SproutedAVIController.m */; };
+		72A59EE00DBF99F500039287 /* ToolbarItemRecordAudio.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A59EDD0DBF99F500039287 /* ToolbarItemRecordAudio.png */; };
+		72A59EE10DBF99F500039287 /* ToolbarItemRecordVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A59EDE0DBF99F500039287 /* ToolbarItemRecordVideo.png */; };
+		72A59EE20DBF99F500039287 /* ToolbarItemSnapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A59EDF0DBF99F500039287 /* ToolbarItemSnapshot.png */; };
+		72A59FC20DBF9AE100039287 /* AVIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A59FC00DBF9AE100039287 /* AVIController.xib */; };
+		72A5A0630DBFA8B000039287 /* SproutedLeafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A5A0620DBFA8B000039287 /* SproutedLeafe.png */; };
+		72A5A0EA0DBFB26300039287 /* playrecording.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A5A0E90DBFB26300039287 /* playrecording.png */; };
+		72A5A1190DBFB6AD00039287 /* pauserecording.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A5A1180DBFB6AD00039287 /* pauserecording.png */; };
+		72A771A00DCA895100ADE5FD /* SproutedTigerAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7719E0DCA895100ADE5FD /* SproutedTigerAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A771A10DCA895100ADE5FD /* SproutedTigerAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7719F0DCA895100ADE5FD /* SproutedTigerAudioRecorder.m */; };
+		72AEF8770DBE3FE600EA0D75 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEF8740DBE3FDA00EA0D75 /* ApplicationDelegate.m */; };
+		72AEF88B0DBE427B00EA0D75 /* ID3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEF88A0DBE427B00EA0D75 /* ID3.framework */; };
+		72AEF8AA0DBE428500EA0D75 /* ID3.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEF88A0DBE427B00EA0D75 /* ID3.framework */; };
+		72AEF8AD0DBE429100EA0D75 /* SproutedAVI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDEC30DBD4C9200CDB0AC /* SproutedAVI.framework */; };
+		72AEF8CE0DBE42A400EA0D75 /* SproutedRecordingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 726BDFC70DBD500700CDB0AC /* SproutedRecordingWindow.m */; };
+		72AEF8CF0DBE42A700EA0D75 /* SproutedRecordingWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 726BDFC60DBD500700CDB0AC /* SproutedRecordingWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEF90B0DBE475300EA0D75 /* SproutedSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AEF9090DBE475300EA0D75 /* SproutedSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEF90C0DBE475300EA0D75 /* SproutedSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEF90A0DBE475300EA0D75 /* SproutedSnapshot.m */; };
+		72AEF9140DBE4E2D00EA0D75 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEF9130DBE4E2D00EA0D75 /* Carbon.framework */; };
+		72AEF9C80DBE501300EA0D75 /* ID3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEF88A0DBE427B00EA0D75 /* ID3.framework */; };
+		72AEF9D20DBE504D00EA0D75 /* SproutedAVI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726BDEC30DBD4C9200CDB0AC /* SproutedAVI.framework */; };
+		72AEF9E80DBE505900EA0D75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		72AEFA440DBE54F900EA0D75 /* SproutedAVIAlerts.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AEFA420DBE54F900EA0D75 /* SproutedAVIAlerts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEFA450DBE54F900EA0D75 /* SproutedAVIAlerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEFA430DBE54F900EA0D75 /* SproutedAVIAlerts.m */; };
+		72AEFA930DBE5A7F00EA0D75 /* SproutedLAMEInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AEFA910DBE5A7F00EA0D75 /* SproutedLAMEInstaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEFA940DBE5A7F00EA0D75 /* SproutedLAMEInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEFA920DBE5A7F00EA0D75 /* SproutedLAMEInstaller.m */; };
+		72AEFADC0DBE5D7D00EA0D75 /* SproutedAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AEFA8D0DBE5A2700EA0D75 /* SproutedAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEFADD0DBE5D7D00EA0D75 /* SproutedAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AEFA8E0DBE5A2700EA0D75 /* SproutedAudioRecorder.m */; };
+		72AEFB090DBE7E4900EA0D75 /* HUDCloseButton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB020DBE7E4900EA0D75 /* HUDCloseButton.tiff */; };
+		72AEFB0A0DBE7E4900EA0D75 /* photo_shutter.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB030DBE7E4900EA0D75 /* photo_shutter.aiff */; };
+		72AEFB0B0DBE7E4900EA0D75 /* TakeSnapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB040DBE7E4900EA0D75 /* TakeSnapshot.png */; };
+		72AEFB0C0DBE7E4900EA0D75 /* UnknownFSObjectIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB050DBE7E4900EA0D75 /* UnknownFSObjectIcon.icns */; };
+		72AEFB590DBE83B700EA0D75 /* beginrecording.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB570DBE83B700EA0D75 /* beginrecording.png */; };
+		72AEFB5A0DBE83B700EA0D75 /* stoprecording.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB580DBE83B700EA0D75 /* stoprecording.png */; };
+		72AEFB5E0DBE83DE00EA0D75 /* FastForward.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB5B0DBE83DE00EA0D75 /* FastForward.tif */; };
+		72AEFB5F0DBE83DE00EA0D75 /* playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB5C0DBE83DE00EA0D75 /* playlist.png */; };
+		72AEFB600DBE83DE00EA0D75 /* Rewind.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB5D0DBE83DE00EA0D75 /* Rewind.tif */; };
+		72AEFB650DBE83F400EA0D75 /* VolumeMeter1.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB610DBE83F400EA0D75 /* VolumeMeter1.tif */; };
+		72AEFB660DBE83F400EA0D75 /* VolumeMeter2.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB620DBE83F400EA0D75 /* VolumeMeter2.tif */; };
+		72AEFB670DBE83F400EA0D75 /* VolumeMeter3.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB630DBE83F400EA0D75 /* VolumeMeter3.tif */; };
+		72AEFB680DBE83F400EA0D75 /* VolumeMeterMute.tif in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB640DBE83F400EA0D75 /* VolumeMeterMute.tif */; };
+		72AEFB6A0DBE841500EA0D75 /* metering.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AEFB690DBE841500EA0D75 /* metering.png */; };
+		72AEFBAF0DBE949B00EA0D75 /* SproutedVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AEFBAD0DBE949B00EA0D75 /* SproutedVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AEFBB00DBE949B00EA0D75 /* SproutedVideoRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72AEFBAE0DBE949B00EA0D75 /* SproutedVideoRecorder.mm */; };
+		72B77F180DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B77F160DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72B77F190DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B77F170DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.m */; };
+		72B77F1C0DCA53EB00DF5F95 /* AudioRecorder_105.nib in Resources */ = {isa = PBXBuildFile; fileRef = 72B77F1A0DCA53EB00DF5F95 /* AudioRecorder_105.nib */; };
+		72D6C7A3100FD0BB00AD36C0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72D6C7A2100FD0BB00AD36C0 /* README.txt */; };
+		72E093850DC24BAA006DBACE /* SproutedAVIPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E093830DC24BAA006DBACE /* SproutedAVIPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E093860DC24BAA006DBACE /* SproutedAVIPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E093840DC24BAA006DBACE /* SproutedAVIPreferences.m */; };
+		72E095560DC25A11006DBACE /* LAMEEncoder.component in Resources */ = {isa = PBXBuildFile; fileRef = 72E095490DC25A11006DBACE /* LAMEEncoder.component */; };
+		72E0955D0DC25A31006DBACE /* LAME.framework in Resources */ = {isa = PBXBuildFile; fileRef = 72E095480DC25A11006DBACE /* LAME.framework */; };
+		72F92DC70DC1701E00A7A900 /* SproutedAVIImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F92DC50DC1701E00A7A900 /* SproutedAVIImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F92DC80DC1701E00A7A900 /* SproutedAVIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F92DC60DC1701E00A7A900 /* SproutedAVIImageAdditions.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726BDFB80DBD4FD800CDB0AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726BDEC20DBD4C9200CDB0AC;
+			remoteInfo = SproutedAVI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		726BDFA20DBD4E1100CDB0AC /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72AEF8AA0DBE428500EA0D75 /* ID3.framework in Copy Frameworks */,
+				72AEF8AD0DBE429100EA0D75 /* SproutedAVI.framework in Copy Frameworks */,
+				726BDF9F0DBD4DF300CDB0AC /* SproutedUtilities.framework in Copy Frameworks */,
+				726BDFA00DBD4DF300CDB0AC /* SproutedInterface.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Sprouted AVI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sprouted AVI_Prefix.pch"; sourceTree = "<group>"; };
+		721A9E890DD3851D008D3C57 /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		721A9E8A0DD3851F008D3C57 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		721A9E8B0DD38528008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/AVIController.xib; sourceTree = "<group>"; };
+		721A9E8C0DD38529008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/AVIController.xib; sourceTree = "<group>"; };
+		721A9E8D0DD3852E008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/AVIPreferences.nib; sourceTree = "<group>"; };
+		721A9E8E0DD38530008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/AVIPreferences.nib; sourceTree = "<group>"; };
+		721A9E8F0DD38534008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/VideoRecorder.nib; sourceTree = "<group>"; };
+		721A9E900DD38536008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/VideoRecorder.nib; sourceTree = "<group>"; };
+		721A9E910DD3853B008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/VideoRecorder_105.nib; sourceTree = "<group>"; };
+		721A9E920DD3853D008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/VideoRecorder_105.nib; sourceTree = "<group>"; };
+		721A9E930DD38541008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/AudioRecorder.nib; sourceTree = "<group>"; };
+		721A9E940DD38543008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/AudioRecorder.nib; sourceTree = "<group>"; };
+		721A9E950DD38547008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/AudioRecorder_105.nib; sourceTree = "<group>"; };
+		721A9E960DD38549008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/AudioRecorder_105.nib; sourceTree = "<group>"; };
+		721A9E970DD3854D008D3C57 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/Snapshot.nib; sourceTree = "<group>"; };
+		721A9E980DD3854E008D3C57 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/Snapshot.nib; sourceTree = "<group>"; };
+		721A9E990DD3855D008D3C57 /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		721A9E9A0DD3855F008D3C57 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		72405B9D0DBFF68C00CE37BE /* LCDBackground-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LCDBackground-Flat.png"; sourceTree = "<group>"; };
+		72405BC40DC0007F00CE37BE /* SproutedRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedRecorder.h; sourceTree = "<group>"; };
+		72405BC50DC0007F00CE37BE /* SproutedRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedRecorder.m; sourceTree = "<group>"; };
+		724108510DBFD7730011325E /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AVIPreferences.nib; sourceTree = "<group>"; };
+		724508B60DC13AAB002359D4 /* get-info-32.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "get-info-32.tiff"; sourceTree = "<group>"; };
+		724509370DC13C4E002359D4 /* MP3AddScript.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MP3AddScript.txt; sourceTree = "<group>"; };
+		7268A58B0DC9777000112F60 /* SproutedLeopardVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedLeopardVideoRecorder.h; sourceTree = "<group>"; };
+		7268A58C0DC9777000112F60 /* SproutedLeopardVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedLeopardVideoRecorder.m; sourceTree = "<group>"; };
+		7268A5930DC977A500112F60 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VideoRecorder_105.nib; sourceTree = "<group>"; };
+		726BDEC30DBD4C9200CDB0AC /* SproutedAVI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SproutedAVI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726BDEC40DBD4C9200CDB0AC /* SproutedAVI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SproutedAVI-Info.plist"; sourceTree = "<group>"; };
+		726BDECA0DBD4CF900CDB0AC /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		726BDECB0DBD4CF900CDB0AC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		726BDECE0DBD4D1700CDB0AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		726BDED40DBD4D4300CDB0AC /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
+		726BDF140DBD4DCB00CDB0AC /* SproutedUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SproutedUtilities.framework; sourceTree = "<group>"; };
+		726BDF150DBD4DCB00CDB0AC /* SproutedInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SproutedInterface.framework; sourceTree = "<group>"; };
+		726BDFA40DBD4E8B00CDB0AC /* SproutedAVI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAVI.h; sourceTree = "<group>"; };
+		726BDFC40DBD4FF200CDB0AC /* WhackedDebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhackedDebugMacros.h; sourceTree = "<group>"; };
+		726BDFC60DBD500700CDB0AC /* SproutedRecordingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedRecordingWindow.h; sourceTree = "<group>"; };
+		726BDFC70DBD500700CDB0AC /* SproutedRecordingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedRecordingWindow.m; sourceTree = "<group>"; };
+		726BDFC90DBD501000CDB0AC /* SeqGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeqGrab.h; sourceTree = "<group>"; };
+		726BDFCA0DBD501000CDB0AC /* SeqGrab.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SeqGrab.mm; sourceTree = "<group>"; };
+		726BDFCB0DBD501000CDB0AC /* SGAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAudio.h; sourceTree = "<group>"; };
+		726BDFCC0DBD501000CDB0AC /* SGAudio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SGAudio.mm; sourceTree = "<group>"; };
+		726BDFCD0DBD501000CDB0AC /* SGChan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChan.h; sourceTree = "<group>"; };
+		726BDFCE0DBD501000CDB0AC /* SGChan.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SGChan.mm; sourceTree = "<group>"; };
+		726BDFF20DBD508300CDB0AC /* DeviceChannelStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceChannelStrip.h; sourceTree = "<group>"; };
+		726BDFF30DBD508300CDB0AC /* DeviceChannelStrip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceChannelStrip.mm; sourceTree = "<group>"; };
+		726BDFF40DBD508300CDB0AC /* HorizontalMeteringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalMeteringView.h; sourceTree = "<group>"; };
+		726BDFF50DBD508300CDB0AC /* HorizontalMeteringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalMeteringView.m; sourceTree = "<group>"; };
+		726BDFF60DBD508300CDB0AC /* MeteringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeteringView.h; sourceTree = "<group>"; };
+		726BDFF70DBD508400CDB0AC /* MeteringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeteringView.m; sourceTree = "<group>"; };
+		726BDFF80DBD508400CDB0AC /* SGAudioSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAudioSettings.h; sourceTree = "<group>"; };
+		726BDFF90DBD508400CDB0AC /* SGAudioSettings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SGAudioSettings.mm; sourceTree = "<group>"; };
+		726BE0040DBD510400CDB0AC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		726BE0050DBD510400CDB0AC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		726BE06C0DBD536A00CDB0AC /* PDMeteringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDMeteringView.h; sourceTree = "<group>"; };
+		726BE06D0DBD536A00CDB0AC /* PDMeteringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDMeteringView.m; sourceTree = "<group>"; };
+		726BE06E0DBD536A00CDB0AC /* PDMovieSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDMovieSlider.h; sourceTree = "<group>"; };
+		726BE06F0DBD536A00CDB0AC /* PDMovieSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDMovieSlider.m; sourceTree = "<group>"; };
+		726BE0700DBD536A00CDB0AC /* PDMovieSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDMovieSliderCell.h; sourceTree = "<group>"; };
+		726BE0710DBD536A00CDB0AC /* PDMovieSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDMovieSliderCell.m; sourceTree = "<group>"; };
+		726BE07A0DBD540700CDB0AC /* CSGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGCamera.h; sourceTree = "<group>"; };
+		726BE07B0DBD540700CDB0AC /* CSGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGCamera.m; sourceTree = "<group>"; };
+		726BE07C0DBD540700CDB0AC /* CSGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGImage.h; sourceTree = "<group>"; };
+		726BE07D0DBD540700CDB0AC /* CSGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGImage.m; sourceTree = "<group>"; };
+		726BE0850DBD54CC00CDB0AC /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VideoRecorder.nib; sourceTree = "<group>"; };
+		726BE0870DBD54CC00CDB0AC /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AudioRecorder.nib; sourceTree = "<group>"; };
+		726BE0890DBD54CC00CDB0AC /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Snapshot.nib; sourceTree = "<group>"; };
+		7296E8B00DBEB18800817219 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		72A59ECB0DBF990300039287 /* SproutedAVIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAVIController.h; sourceTree = "<group>"; };
+		72A59ECC0DBF990300039287 /* SproutedAVIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedAVIController.m; sourceTree = "<group>"; };
+		72A59EDD0DBF99F500039287 /* ToolbarItemRecordAudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarItemRecordAudio.png; sourceTree = "<group>"; };
+		72A59EDE0DBF99F500039287 /* ToolbarItemRecordVideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarItemRecordVideo.png; sourceTree = "<group>"; };
+		72A59EDF0DBF99F500039287 /* ToolbarItemSnapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarItemSnapshot.png; sourceTree = "<group>"; };
+		72A59FC10DBF9AE100039287 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AVIController.xib; sourceTree = "<group>"; };
+		72A5A0620DBFA8B000039287 /* SproutedLeafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SproutedLeafe.png; sourceTree = "<group>"; };
+		72A5A0E90DBFB26300039287 /* playrecording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playrecording.png; sourceTree = "<group>"; };
+		72A5A1180DBFB6AD00039287 /* pauserecording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauserecording.png; sourceTree = "<group>"; };
+		72A7719E0DCA895100ADE5FD /* SproutedTigerAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedTigerAudioRecorder.h; sourceTree = "<group>"; };
+		72A7719F0DCA895100ADE5FD /* SproutedTigerAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedTigerAudioRecorder.m; sourceTree = "<group>"; };
+		72AEF8730DBE3FDA00EA0D75 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		72AEF8740DBE3FDA00EA0D75 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		72AEF88A0DBE427B00EA0D75 /* ID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ID3.framework; sourceTree = "<group>"; };
+		72AEF9090DBE475300EA0D75 /* SproutedSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedSnapshot.h; sourceTree = "<group>"; };
+		72AEF90A0DBE475300EA0D75 /* SproutedSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedSnapshot.m; sourceTree = "<group>"; };
+		72AEF9130DBE4E2D00EA0D75 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		72AEFA3B0DBE527C00EA0D75 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		72AEFA420DBE54F900EA0D75 /* SproutedAVIAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAVIAlerts.h; sourceTree = "<group>"; };
+		72AEFA430DBE54F900EA0D75 /* SproutedAVIAlerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedAVIAlerts.m; sourceTree = "<group>"; };
+		72AEFA8D0DBE5A2700EA0D75 /* SproutedAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAudioRecorder.h; sourceTree = "<group>"; };
+		72AEFA8E0DBE5A2700EA0D75 /* SproutedAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedAudioRecorder.m; sourceTree = "<group>"; };
+		72AEFA910DBE5A7F00EA0D75 /* SproutedLAMEInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedLAMEInstaller.h; sourceTree = "<group>"; };
+		72AEFA920DBE5A7F00EA0D75 /* SproutedLAMEInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedLAMEInstaller.m; sourceTree = "<group>"; };
+		72AEFB020DBE7E4900EA0D75 /* HUDCloseButton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = HUDCloseButton.tiff; sourceTree = "<group>"; };
+		72AEFB030DBE7E4900EA0D75 /* photo_shutter.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = photo_shutter.aiff; sourceTree = "<group>"; };
+		72AEFB040DBE7E4900EA0D75 /* TakeSnapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TakeSnapshot.png; sourceTree = "<group>"; };
+		72AEFB050DBE7E4900EA0D75 /* UnknownFSObjectIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = UnknownFSObjectIcon.icns; sourceTree = "<group>"; };
+		72AEFB570DBE83B700EA0D75 /* beginrecording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beginrecording.png; sourceTree = "<group>"; };
+		72AEFB580DBE83B700EA0D75 /* stoprecording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stoprecording.png; sourceTree = "<group>"; };
+		72AEFB5B0DBE83DE00EA0D75 /* FastForward.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FastForward.tif; sourceTree = "<group>"; };
+		72AEFB5C0DBE83DE00EA0D75 /* playlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlist.png; sourceTree = "<group>"; };
+		72AEFB5D0DBE83DE00EA0D75 /* Rewind.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Rewind.tif; sourceTree = "<group>"; };
+		72AEFB610DBE83F400EA0D75 /* VolumeMeter1.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = VolumeMeter1.tif; sourceTree = "<group>"; };
+		72AEFB620DBE83F400EA0D75 /* VolumeMeter2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = VolumeMeter2.tif; sourceTree = "<group>"; };
+		72AEFB630DBE83F400EA0D75 /* VolumeMeter3.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = VolumeMeter3.tif; sourceTree = "<group>"; };
+		72AEFB640DBE83F400EA0D75 /* VolumeMeterMute.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = VolumeMeterMute.tif; sourceTree = "<group>"; };
+		72AEFB690DBE841500EA0D75 /* metering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metering.png; sourceTree = "<group>"; };
+		72AEFBAD0DBE949B00EA0D75 /* SproutedVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedVideoRecorder.h; sourceTree = "<group>"; };
+		72AEFBAE0DBE949B00EA0D75 /* SproutedVideoRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SproutedVideoRecorder.mm; sourceTree = "<group>"; };
+		72B77F160DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedLeopardAudioRecorder.h; sourceTree = "<group>"; };
+		72B77F170DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedLeopardAudioRecorder.m; sourceTree = "<group>"; };
+		72B77F1B0DCA53EB00DF5F95 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AudioRecorder_105.nib; sourceTree = "<group>"; };
+		72D6C7A2100FD0BB00AD36C0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		72E093830DC24BAA006DBACE /* SproutedAVIPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAVIPreferences.h; sourceTree = "<group>"; };
+		72E093840DC24BAA006DBACE /* SproutedAVIPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedAVIPreferences.m; sourceTree = "<group>"; };
+		72E095480DC25A11006DBACE /* LAME.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LAME.framework; sourceTree = "<group>"; };
+		72E095490DC25A11006DBACE /* LAMEEncoder.component */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LAMEEncoder.component; sourceTree = "<group>"; };
+		72F92DC50DC1701E00A7A900 /* SproutedAVIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedAVIImageAdditions.h; sourceTree = "<group>"; };
+		72F92DC60DC1701E00A7A900 /* SproutedAVIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedAVIImageAdditions.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Sprouted AVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprouted AVI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726BDEC10DBD4C9200CDB0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726BDED10DBD4D1B00CDB0AC /* Cocoa.framework in Frameworks */,
+				726BDECC0DBD4CF900CDB0AC /* QTKit.framework in Frameworks */,
+				726BDECD0DBD4CF900CDB0AC /* QuickTime.framework in Frameworks */,
+				726BDECF0DBD4D1700CDB0AC /* AudioToolbox.framework in Frameworks */,
+				726BDED50DBD4D4300CDB0AC /* CoreAudioKit.framework in Frameworks */,
+				726BDF160DBD4DCB00CDB0AC /* SproutedUtilities.framework in Frameworks */,
+				726BDF170DBD4DCB00CDB0AC /* SproutedInterface.framework in Frameworks */,
+				726BE0060DBD510400CDB0AC /* AudioUnit.framework in Frameworks */,
+				726BE0070DBD510400CDB0AC /* CoreAudio.framework in Frameworks */,
+				72AEF88B0DBE427B00EA0D75 /* ID3.framework in Frameworks */,
+				72AEF9140DBE4E2D00EA0D75 /* Carbon.framework in Frameworks */,
+				7296E8B10DBEB18800817219 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AEF9E80DBE505900EA0D75 /* Cocoa.framework in Frameworks */,
+				72AEF9D20DBE504D00EA0D75 /* SproutedAVI.framework in Frameworks */,
+				72AEF9C80DBE501300EA0D75 /* ID3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				72AEF8730DBE3FDA00EA0D75 /* ApplicationDelegate.h */,
+				72AEF8740DBE3FDA00EA0D75 /* ApplicationDelegate.m */,
+				726BDFA30DBD4E7B00CDB0AC /* SproutedAVI Framework */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7296E8B00DBEB18800817219 /* QuartzCore.framework */,
+				72AEF9130DBE4E2D00EA0D75 /* Carbon.framework */,
+				72AEF88A0DBE427B00EA0D75 /* ID3.framework */,
+				726BE0040DBD510400CDB0AC /* AudioUnit.framework */,
+				726BE0050DBD510400CDB0AC /* CoreAudio.framework */,
+				726BDED40DBD4D4300CDB0AC /* CoreAudioKit.framework */,
+				726BDECE0DBD4D1700CDB0AC /* AudioToolbox.framework */,
+				726BDECA0DBD4CF900CDB0AC /* QTKit.framework */,
+				726BDECB0DBD4CF900CDB0AC /* QuickTime.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				726BDF140DBD4DCB00CDB0AC /* SproutedUtilities.framework */,
+				726BDF150DBD4DCB00CDB0AC /* SproutedInterface.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Sprouted AVI.app */,
+				726BDEC30DBD4C9200CDB0AC /* SproutedAVI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sprouted AVI */ = {
+			isa = PBXGroup;
+			children = (
+				72D6C7A2100FD0BB00AD36C0 /* README.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				726BDEC40DBD4C9200CDB0AC /* SproutedAVI-Info.plist */,
+			);
+			name = "Sprouted AVI";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Sprouted AVI_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				72A59FC00DBF9AE100039287 /* AVIController.xib */,
+				724108500DBFD7730011325E /* AVIPreferences.nib */,
+				726BE0840DBD54CC00CDB0AC /* VideoRecorder.nib */,
+				7268A5920DC977A500112F60 /* VideoRecorder_105.nib */,
+				726BE0860DBD54CC00CDB0AC /* AudioRecorder.nib */,
+				72B77F1A0DCA53EB00DF5F95 /* AudioRecorder_105.nib */,
+				726BE0880DBD54CC00CDB0AC /* Snapshot.nib */,
+				724108120DBFD0FF0011325E /* Localizable.strings */,
+				72A5A0620DBFA8B000039287 /* SproutedLeafe.png */,
+				72A59EDD0DBF99F500039287 /* ToolbarItemRecordAudio.png */,
+				72A59EDE0DBF99F500039287 /* ToolbarItemRecordVideo.png */,
+				72A59EDF0DBF99F500039287 /* ToolbarItemSnapshot.png */,
+				724508B60DC13AAB002359D4 /* get-info-32.tiff */,
+				72AEFB020DBE7E4900EA0D75 /* HUDCloseButton.tiff */,
+				72AEFB030DBE7E4900EA0D75 /* photo_shutter.aiff */,
+				72AEFB040DBE7E4900EA0D75 /* TakeSnapshot.png */,
+				72AEFB050DBE7E4900EA0D75 /* UnknownFSObjectIcon.icns */,
+				72405B9D0DBFF68C00CE37BE /* LCDBackground-Flat.png */,
+				72AEFB570DBE83B700EA0D75 /* beginrecording.png */,
+				72AEFB580DBE83B700EA0D75 /* stoprecording.png */,
+				72A5A0E90DBFB26300039287 /* playrecording.png */,
+				72A5A1180DBFB6AD00039287 /* pauserecording.png */,
+				72AEFB5B0DBE83DE00EA0D75 /* FastForward.tif */,
+				72AEFB5C0DBE83DE00EA0D75 /* playlist.png */,
+				72AEFB5D0DBE83DE00EA0D75 /* Rewind.tif */,
+				72AEFB610DBE83F400EA0D75 /* VolumeMeter1.tif */,
+				72AEFB620DBE83F400EA0D75 /* VolumeMeter2.tif */,
+				72AEFB630DBE83F400EA0D75 /* VolumeMeter3.tif */,
+				72AEFB640DBE83F400EA0D75 /* VolumeMeterMute.tif */,
+				72AEFB690DBE841500EA0D75 /* metering.png */,
+				724509370DC13C4E002359D4 /* MP3AddScript.txt */,
+				72E095480DC25A11006DBACE /* LAME.framework */,
+				72E095490DC25A11006DBACE /* LAMEEncoder.component */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7268A58A0DC9774800112F60 /* Leopard */ = {
+			isa = PBXGroup;
+			children = (
+				72B77F160DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.h */,
+				72B77F170DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.m */,
+				7268A58B0DC9777000112F60 /* SproutedLeopardVideoRecorder.h */,
+				7268A58C0DC9777000112F60 /* SproutedLeopardVideoRecorder.m */,
+			);
+			name = Leopard;
+			sourceTree = "<group>";
+		};
+		726BDFA30DBD4E7B00CDB0AC /* SproutedAVI Framework */ = {
+			isa = PBXGroup;
+			children = (
+				726BDFA40DBD4E8B00CDB0AC /* SproutedAVI.h */,
+				72A59ECB0DBF990300039287 /* SproutedAVIController.h */,
+				72A59ECC0DBF990300039287 /* SproutedAVIController.m */,
+				72E093830DC24BAA006DBACE /* SproutedAVIPreferences.h */,
+				72E093840DC24BAA006DBACE /* SproutedAVIPreferences.m */,
+				72405BC40DC0007F00CE37BE /* SproutedRecorder.h */,
+				72405BC50DC0007F00CE37BE /* SproutedRecorder.m */,
+				72AEFA8D0DBE5A2700EA0D75 /* SproutedAudioRecorder.h */,
+				72AEFA8E0DBE5A2700EA0D75 /* SproutedAudioRecorder.m */,
+				7268A58A0DC9774800112F60 /* Leopard */,
+				726BDFD30DBD502000CDB0AC /* Tiger */,
+				726BDFC60DBD500700CDB0AC /* SproutedRecordingWindow.h */,
+				726BDFC70DBD500700CDB0AC /* SproutedRecordingWindow.m */,
+				72AEFA910DBE5A7F00EA0D75 /* SproutedLAMEInstaller.h */,
+				72AEFA920DBE5A7F00EA0D75 /* SproutedLAMEInstaller.m */,
+				72AEFA420DBE54F900EA0D75 /* SproutedAVIAlerts.h */,
+				72AEFA430DBE54F900EA0D75 /* SproutedAVIAlerts.m */,
+				72F92DC50DC1701E00A7A900 /* SproutedAVIImageAdditions.h */,
+				72F92DC60DC1701E00A7A900 /* SproutedAVIImageAdditions.m */,
+			);
+			name = "SproutedAVI Framework";
+			sourceTree = "<group>";
+		};
+		726BDFD20DBD501300CDB0AC /* Sequence Grabber */ = {
+			isa = PBXGroup;
+			children = (
+				726BDFC40DBD4FF200CDB0AC /* WhackedDebugMacros.h */,
+				726BDFC90DBD501000CDB0AC /* SeqGrab.h */,
+				726BDFCA0DBD501000CDB0AC /* SeqGrab.mm */,
+				726BDFCB0DBD501000CDB0AC /* SGAudio.h */,
+				726BDFCC0DBD501000CDB0AC /* SGAudio.mm */,
+				726BDFCD0DBD501000CDB0AC /* SGChan.h */,
+				726BDFCE0DBD501000CDB0AC /* SGChan.mm */,
+			);
+			name = "Sequence Grabber";
+			sourceTree = "<group>";
+		};
+		726BDFD30DBD502000CDB0AC /* Tiger */ = {
+			isa = PBXGroup;
+			children = (
+				72AEF9090DBE475300EA0D75 /* SproutedSnapshot.h */,
+				72AEF90A0DBE475300EA0D75 /* SproutedSnapshot.m */,
+				72A7719E0DCA895100ADE5FD /* SproutedTigerAudioRecorder.h */,
+				72A7719F0DCA895100ADE5FD /* SproutedTigerAudioRecorder.m */,
+				72AEFBAD0DBE949B00EA0D75 /* SproutedVideoRecorder.h */,
+				72AEFBAE0DBE949B00EA0D75 /* SproutedVideoRecorder.mm */,
+				726BDFD20DBD501300CDB0AC /* Sequence Grabber */,
+				726BDFDD0DBD507500CDB0AC /* Custom Interface */,
+				726BE06B0DBD535900CDB0AC /* Sprouted Custom Interface */,
+				726BE0790DBD53F600CDB0AC /* Cocoa Sequence Grabber */,
+			);
+			name = Tiger;
+			sourceTree = "<group>";
+		};
+		726BDFDD0DBD507500CDB0AC /* Custom Interface */ = {
+			isa = PBXGroup;
+			children = (
+				726BDFF20DBD508300CDB0AC /* DeviceChannelStrip.h */,
+				726BDFF30DBD508300CDB0AC /* DeviceChannelStrip.mm */,
+				726BDFF40DBD508300CDB0AC /* HorizontalMeteringView.h */,
+				726BDFF50DBD508300CDB0AC /* HorizontalMeteringView.m */,
+				726BDFF60DBD508300CDB0AC /* MeteringView.h */,
+				726BDFF70DBD508400CDB0AC /* MeteringView.m */,
+				726BDFF80DBD508400CDB0AC /* SGAudioSettings.h */,
+				726BDFF90DBD508400CDB0AC /* SGAudioSettings.mm */,
+			);
+			name = "Custom Interface";
+			sourceTree = "<group>";
+		};
+		726BE06B0DBD535900CDB0AC /* Sprouted Custom Interface */ = {
+			isa = PBXGroup;
+			children = (
+				726BE06C0DBD536A00CDB0AC /* PDMeteringView.h */,
+				726BE06D0DBD536A00CDB0AC /* PDMeteringView.m */,
+				726BE06E0DBD536A00CDB0AC /* PDMovieSlider.h */,
+				726BE06F0DBD536A00CDB0AC /* PDMovieSlider.m */,
+				726BE0700DBD536A00CDB0AC /* PDMovieSliderCell.h */,
+				726BE0710DBD536A00CDB0AC /* PDMovieSliderCell.m */,
+			);
+			name = "Sprouted Custom Interface";
+			sourceTree = "<group>";
+		};
+		726BE0790DBD53F600CDB0AC /* Cocoa Sequence Grabber */ = {
+			isa = PBXGroup;
+			children = (
+				726BE07A0DBD540700CDB0AC /* CSGCamera.h */,
+				726BE07B0DBD540700CDB0AC /* CSGCamera.m */,
+				726BE07C0DBD540700CDB0AC /* CSGImage.h */,
+				726BE07D0DBD540700CDB0AC /* CSGImage.m */,
+			);
+			name = "Cocoa Sequence Grabber";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		726BDEBE0DBD4C9200CDB0AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726BDFA50DBD4E8B00CDB0AC /* SproutedAVI.h in Headers */,
+				726BDFC50DBD4FF600CDB0AC /* WhackedDebugMacros.h in Headers */,
+				726BDFD40DBD503200CDB0AC /* SeqGrab.h in Headers */,
+				726BDFD60DBD503200CDB0AC /* SGAudio.h in Headers */,
+				726BDFD80DBD503200CDB0AC /* SGChan.h in Headers */,
+				726BDFFA0DBD508400CDB0AC /* DeviceChannelStrip.h in Headers */,
+				726BDFFC0DBD508400CDB0AC /* HorizontalMeteringView.h in Headers */,
+				726BDFFE0DBD508400CDB0AC /* MeteringView.h in Headers */,
+				726BE0000DBD508400CDB0AC /* SGAudioSettings.h in Headers */,
+				726BE0720DBD536A00CDB0AC /* PDMeteringView.h in Headers */,
+				726BE0740DBD536A00CDB0AC /* PDMovieSlider.h in Headers */,
+				726BE0760DBD536A00CDB0AC /* PDMovieSliderCell.h in Headers */,
+				726BE07E0DBD540700CDB0AC /* CSGCamera.h in Headers */,
+				726BE0800DBD540700CDB0AC /* CSGImage.h in Headers */,
+				72AEF8CF0DBE42A700EA0D75 /* SproutedRecordingWindow.h in Headers */,
+				72AEF90B0DBE475300EA0D75 /* SproutedSnapshot.h in Headers */,
+				72AEFA440DBE54F900EA0D75 /* SproutedAVIAlerts.h in Headers */,
+				72AEFA930DBE5A7F00EA0D75 /* SproutedLAMEInstaller.h in Headers */,
+				72405BC60DC0007F00CE37BE /* SproutedRecorder.h in Headers */,
+				72AEFADC0DBE5D7D00EA0D75 /* SproutedAudioRecorder.h in Headers */,
+				72AEFBAF0DBE949B00EA0D75 /* SproutedVideoRecorder.h in Headers */,
+				72A59ECD0DBF990300039287 /* SproutedAVIController.h in Headers */,
+				72F92DC70DC1701E00A7A900 /* SproutedAVIImageAdditions.h in Headers */,
+				72E093850DC24BAA006DBACE /* SproutedAVIPreferences.h in Headers */,
+				7268A58D0DC9777000112F60 /* SproutedLeopardVideoRecorder.h in Headers */,
+				72B77F180DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.h in Headers */,
+				72A771A00DCA895100ADE5FD /* SproutedTigerAudioRecorder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		726BDEC20DBD4C9200CDB0AC /* SproutedAVI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726BDEC70DBD4C9300CDB0AC /* Build configuration list for PBXNativeTarget "SproutedAVI" */;
+			buildPhases = (
+				726BDEBE0DBD4C9200CDB0AC /* Headers */,
+				726BDEBF0DBD4C9200CDB0AC /* Resources */,
+				726BDEC00DBD4C9200CDB0AC /* Sources */,
+				726BDEC10DBD4C9200CDB0AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SproutedAVI;
+			productName = SproutedAVI;
+			productReference = 726BDEC30DBD4C9200CDB0AC /* SproutedAVI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1107260486CEB800E47090 /* Sprouted AVI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sprouted AVI" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				726BDFA20DBD4E1100CDB0AC /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726BDFB90DBD4FD800CDB0AC /* PBXTargetDependency */,
+			);
+			name = "Sprouted AVI";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Sprouted AVI";
+			productReference = 8D1107320486CEB800E47090 /* Sprouted AVI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sprouted AVI" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				da,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sprouted AVI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Sprouted AVI */,
+				726BDEC20DBD4C9200CDB0AC /* SproutedAVI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726BDEBF0DBD4C9200CDB0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A59FC20DBF9AE100039287 /* AVIController.xib in Resources */,
+				724108520DBFD7730011325E /* AVIPreferences.nib in Resources */,
+				726BE08A0DBD54CC00CDB0AC /* VideoRecorder.nib in Resources */,
+				726BE08B0DBD54CC00CDB0AC /* AudioRecorder.nib in Resources */,
+				726BE08C0DBD54CC00CDB0AC /* Snapshot.nib in Resources */,
+				724108130DBFD0FF0011325E /* Localizable.strings in Resources */,
+				72AEFB090DBE7E4900EA0D75 /* HUDCloseButton.tiff in Resources */,
+				72AEFB0A0DBE7E4900EA0D75 /* photo_shutter.aiff in Resources */,
+				72AEFB0B0DBE7E4900EA0D75 /* TakeSnapshot.png in Resources */,
+				72AEFB0C0DBE7E4900EA0D75 /* UnknownFSObjectIcon.icns in Resources */,
+				72AEFB590DBE83B700EA0D75 /* beginrecording.png in Resources */,
+				72AEFB5A0DBE83B700EA0D75 /* stoprecording.png in Resources */,
+				72AEFB5E0DBE83DE00EA0D75 /* FastForward.tif in Resources */,
+				72AEFB5F0DBE83DE00EA0D75 /* playlist.png in Resources */,
+				72AEFB600DBE83DE00EA0D75 /* Rewind.tif in Resources */,
+				72AEFB650DBE83F400EA0D75 /* VolumeMeter1.tif in Resources */,
+				72AEFB660DBE83F400EA0D75 /* VolumeMeter2.tif in Resources */,
+				72AEFB670DBE83F400EA0D75 /* VolumeMeter3.tif in Resources */,
+				72AEFB680DBE83F400EA0D75 /* VolumeMeterMute.tif in Resources */,
+				72AEFB6A0DBE841500EA0D75 /* metering.png in Resources */,
+				72A59EE00DBF99F500039287 /* ToolbarItemRecordAudio.png in Resources */,
+				72A59EE10DBF99F500039287 /* ToolbarItemRecordVideo.png in Resources */,
+				72A59EE20DBF99F500039287 /* ToolbarItemSnapshot.png in Resources */,
+				72A5A0630DBFA8B000039287 /* SproutedLeafe.png in Resources */,
+				72A5A0EA0DBFB26300039287 /* playrecording.png in Resources */,
+				72A5A1190DBFB6AD00039287 /* pauserecording.png in Resources */,
+				72405B9E0DBFF68C00CE37BE /* LCDBackground-Flat.png in Resources */,
+				724508B70DC13AAB002359D4 /* get-info-32.tiff in Resources */,
+				724509380DC13C4E002359D4 /* MP3AddScript.txt in Resources */,
+				72E0955D0DC25A31006DBACE /* LAME.framework in Resources */,
+				72E095560DC25A11006DBACE /* LAMEEncoder.component in Resources */,
+				7268A5940DC977A500112F60 /* VideoRecorder_105.nib in Resources */,
+				72B77F1C0DCA53EB00DF5F95 /* AudioRecorder_105.nib in Resources */,
+				72D6C7A3100FD0BB00AD36C0 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726BDEC00DBD4C9200CDB0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726BDFD50DBD503200CDB0AC /* SeqGrab.mm in Sources */,
+				726BDFD70DBD503200CDB0AC /* SGAudio.mm in Sources */,
+				726BDFD90DBD503200CDB0AC /* SGChan.mm in Sources */,
+				726BDFFB0DBD508400CDB0AC /* DeviceChannelStrip.mm in Sources */,
+				726BDFFD0DBD508400CDB0AC /* HorizontalMeteringView.m in Sources */,
+				726BDFFF0DBD508400CDB0AC /* MeteringView.m in Sources */,
+				726BE0010DBD508400CDB0AC /* SGAudioSettings.mm in Sources */,
+				726BE0730DBD536A00CDB0AC /* PDMeteringView.m in Sources */,
+				726BE0750DBD536A00CDB0AC /* PDMovieSlider.m in Sources */,
+				726BE0770DBD536A00CDB0AC /* PDMovieSliderCell.m in Sources */,
+				726BE07F0DBD540700CDB0AC /* CSGCamera.m in Sources */,
+				726BE0810DBD540700CDB0AC /* CSGImage.m in Sources */,
+				72AEF8CE0DBE42A400EA0D75 /* SproutedRecordingWindow.m in Sources */,
+				72AEF90C0DBE475300EA0D75 /* SproutedSnapshot.m in Sources */,
+				72AEFA450DBE54F900EA0D75 /* SproutedAVIAlerts.m in Sources */,
+				72AEFA940DBE5A7F00EA0D75 /* SproutedLAMEInstaller.m in Sources */,
+				72AEFADD0DBE5D7D00EA0D75 /* SproutedAudioRecorder.m in Sources */,
+				72AEFBB00DBE949B00EA0D75 /* SproutedVideoRecorder.mm in Sources */,
+				72A59ECE0DBF990300039287 /* SproutedAVIController.m in Sources */,
+				72405BC70DC0007F00CE37BE /* SproutedRecorder.m in Sources */,
+				72F92DC80DC1701E00A7A900 /* SproutedAVIImageAdditions.m in Sources */,
+				72E093860DC24BAA006DBACE /* SproutedAVIPreferences.m in Sources */,
+				7268A58E0DC9777000112F60 /* SproutedLeopardVideoRecorder.m in Sources */,
+				72B77F190DCA52CE00DF5F95 /* SproutedLeopardAudioRecorder.m in Sources */,
+				72A771A10DCA895100ADE5FD /* SproutedTigerAudioRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				72AEF8770DBE3FE600EA0D75 /* ApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726BDFB90DBD4FD800CDB0AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726BDEC20DBD4C9200CDB0AC /* SproutedAVI */;
+			targetProxy = 726BDFB80DBD4FD800CDB0AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				721A9E890DD3851D008D3C57 /* da */,
+				721A9E8A0DD3851F008D3C57 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		724108120DBFD0FF0011325E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AEFA3B0DBE527C00EA0D75 /* English */,
+				721A9E990DD3855D008D3C57 /* da */,
+				721A9E9A0DD3855F008D3C57 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		724108500DBFD7730011325E /* AVIPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724108510DBFD7730011325E /* English */,
+				721A9E8D0DD3852E008D3C57 /* da */,
+				721A9E8E0DD38530008D3C57 /* de */,
+			);
+			name = AVIPreferences.nib;
+			sourceTree = "<group>";
+		};
+		7268A5920DC977A500112F60 /* VideoRecorder_105.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7268A5930DC977A500112F60 /* English */,
+				721A9E910DD3853B008D3C57 /* da */,
+				721A9E920DD3853D008D3C57 /* de */,
+			);
+			name = VideoRecorder_105.nib;
+			sourceTree = "<group>";
+		};
+		726BE0840DBD54CC00CDB0AC /* VideoRecorder.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726BE0850DBD54CC00CDB0AC /* English */,
+				721A9E8F0DD38534008D3C57 /* da */,
+				721A9E900DD38536008D3C57 /* de */,
+			);
+			name = VideoRecorder.nib;
+			sourceTree = "<group>";
+		};
+		726BE0860DBD54CC00CDB0AC /* AudioRecorder.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726BE0870DBD54CC00CDB0AC /* English */,
+				721A9E930DD38541008D3C57 /* da */,
+				721A9E940DD38543008D3C57 /* de */,
+			);
+			name = AudioRecorder.nib;
+			sourceTree = "<group>";
+		};
+		726BE0880DBD54CC00CDB0AC /* Snapshot.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726BE0890DBD54CC00CDB0AC /* English */,
+				721A9E970DD3854D008D3C57 /* da */,
+				721A9E980DD3854E008D3C57 /* de */,
+			);
+			name = Snapshot.nib;
+			sourceTree = "<group>";
+		};
+		72A59FC00DBF9AE100039287 /* AVIController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A59FC10DBF9AE100039287 /* English */,
+				721A9E8B0DD38528008D3C57 /* da */,
+				721A9E8C0DD38529008D3C57 /* de */,
+			);
+			name = AVIController.xib;
+			sourceTree = "<group>";
+		};
+		72B77F1A0DCA53EB00DF5F95 /* AudioRecorder_105.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B77F1B0DCA53EB00DF5F95 /* English */,
+				721A9E950DD38547008D3C57 /* da */,
+				721A9E960DD38549008D3C57 /* de */,
+			);
+			name = AudioRecorder_105.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726BDEC50DBD4C9300CDB0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SproutedAVI-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SproutedAVI;
+			};
+			name = Debug;
+		};
+		726BDEC60DBD4C9300CDB0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SproutedAVI-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SproutedAVI;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprouted AVI_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "Sprouted AVI";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprouted AVI_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "Sprouted AVI";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726BDEC70DBD4C9300CDB0AC /* Build configuration list for PBXNativeTarget "SproutedAVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726BDEC50DBD4C9300CDB0AC /* Debug */,
+				726BDEC60DBD4C9300CDB0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sprouted AVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sprouted AVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
